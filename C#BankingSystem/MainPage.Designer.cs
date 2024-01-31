@@ -71,12 +71,12 @@
             Recentsbtn = new Guna.UI2.WinForms.Guna2Button();
             guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            CBEIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             dashboard11 = new Dashboard1();
             support1 = new Support();
             news1 = new News();
             recent_Transactions1 = new Recent_Transactions();
             transfer1 = new Transfer();
-            CBEIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ControlGPanel2.SuspendLayout();
             sidebarGradientPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AccountPictureBox).BeginInit();
@@ -360,6 +360,21 @@
             guna2GradientPanel2.Size = new Size(1556, 1039);
             guna2GradientPanel2.TabIndex = 6;
             // 
+            // CBEIcon
+            // 
+            CBEIcon.BackColor = Color.Transparent;
+            CBEIcon.FillColor = Color.Transparent;
+            CBEIcon.Image = (Image)resources.GetObject("CBEIcon.Image");
+            CBEIcon.ImageRotate = 0F;
+            CBEIcon.Location = new Point(0, 0);
+            CBEIcon.Name = "CBEIcon";
+            CBEIcon.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            CBEIcon.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            CBEIcon.Size = new Size(1559, 1040);
+            CBEIcon.SizeMode = PictureBoxSizeMode.Zoom;
+            CBEIcon.TabIndex = 3;
+            CBEIcon.TabStop = false;
+            // 
             // dashboard11
             // 
             dashboard11.BackColor = Color.Transparent;
@@ -396,21 +411,6 @@
             transfer1.Name = "transfer1";
             transfer1.Size = new Size(1559, 1040);
             transfer1.TabIndex = 8;
-            // 
-            // CBEIcon
-            // 
-            CBEIcon.BackColor = Color.Transparent;
-            CBEIcon.FillColor = Color.Transparent;
-            CBEIcon.Image = (Image)resources.GetObject("CBEIcon.Image");
-            CBEIcon.ImageRotate = 0F;
-            CBEIcon.Location = new Point(0, 0);
-            CBEIcon.Name = "CBEIcon";
-            CBEIcon.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            CBEIcon.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            CBEIcon.Size = new Size(1559, 1040);
-            CBEIcon.SizeMode = PictureBoxSizeMode.Zoom;
-            CBEIcon.TabIndex = 3;
-            CBEIcon.TabStop = false;
             // 
             // MainPage
             // 
