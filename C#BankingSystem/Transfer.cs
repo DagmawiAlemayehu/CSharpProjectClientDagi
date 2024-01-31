@@ -94,6 +94,9 @@ namespace C_BankingSystem
 
         private void NoBtn_Click(object sender, EventArgs e)
         {
+            DialoguePanel.Visible = false;
+            DialoguePanel.Hide(); 
+
             TransferPanel.Visible = true;
             TransferPanel.Show();
             TransferPanel.BringToFront();

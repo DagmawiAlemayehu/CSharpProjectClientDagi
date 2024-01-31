@@ -260,10 +260,10 @@
             guna2GradientPanel4.CustomizableEdges = customizableEdges8;
             guna2GradientPanel4.FillColor = Color.Indigo;
             guna2GradientPanel4.FillColor2 = Color.Peru;
-            guna2GradientPanel4.Location = new Point(863, 448);
+            guna2GradientPanel4.Location = new Point(824, 448);
             guna2GradientPanel4.Name = "guna2GradientPanel4";
             guna2GradientPanel4.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            guna2GradientPanel4.Size = new Size(530, 237);
+            guna2GradientPanel4.Size = new Size(547, 237);
             guna2GradientPanel4.TabIndex = 2;
             // 
             // AccountNumlbl

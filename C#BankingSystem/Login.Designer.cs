@@ -45,7 +45,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            signUp1 = new SignUp();
             guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             Closebtn = new Guna.UI2.WinForms.Guna2Button();
             SignUpBtn = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -61,6 +60,7 @@
             label1 = new Label();
             lblWelcome = new Label();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            signUp1 = new SignUp();
             guna2GradientPanel1.SuspendLayout();
             guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
@@ -93,14 +93,6 @@
             guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges15;
             guna2GradientPanel1.Size = new Size(1931, 1092);
             guna2GradientPanel1.TabIndex = 2;
-            // 
-            // signUp1
-            // 
-            signUp1.Location = new Point(0, 0);
-            signUp1.Name = "signUp1";
-            signUp1.Size = new Size(1931, 1092);
-            signUp1.TabIndex = 17;
-            signUp1.Visible = false;
             // 
             // guna2GradientPanel2
             // 
@@ -221,6 +213,7 @@
             // PasswordTxt
             // 
             PasswordTxt.BorderRadius = 15;
+            PasswordTxt.Cursor = Cursors.IBeam;
             PasswordTxt.CustomizableEdges = customizableEdges11;
             PasswordTxt.DefaultText = "";
             PasswordTxt.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -340,6 +333,14 @@
             guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2CirclePictureBox1.TabIndex = 0;
             guna2CirclePictureBox1.TabStop = false;
+            // 
+            // signUp1
+            // 
+            signUp1.Location = new Point(0, 0);
+            signUp1.Name = "signUp1";
+            signUp1.Size = new Size(1931, 1092);
+            signUp1.TabIndex = 17;
+            signUp1.Visible = false;
             // 
             // Login
             // 
