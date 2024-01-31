@@ -23,8 +23,13 @@ namespace C_BankingSystem
             LastNameTxt.Text = "";
             AccountNumberTxt.Text = "";
             PhoneNumberTxt.Text = "";
+            Emailtxt.Text = "";
+            Usernametxt.Text = "";
             PasswordTxt2.Text = "";
             ConfirmPasswordTxt.Text = "";
+            VCtxt.PlaceholderText = "";
+            VCtxt.Text = "";
+
             this.Hide();
             this.SendToBack();
         }
@@ -44,6 +49,17 @@ namespace C_BankingSystem
         {
             PasswordTxt2.PasswordChar = '*';
             ShowBtn.BringToFront();
+        }
+        private void VCRequestBtn_Click(object sender, EventArgs e)
+        {
+            if (VCtxt.PlaceholderText == string.Empty)
+            {
+                VCtxt.PlaceholderText = "Check Your Email";
+            }
+            else
+            {
+                VCtxt.PlaceholderText = "Verification already sent";
+            }
         }
     }
 }

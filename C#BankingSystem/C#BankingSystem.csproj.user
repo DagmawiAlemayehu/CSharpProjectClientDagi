@@ -16,7 +16,7 @@
     <Compile Update="Recent Transactions.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Settings.cs">
+    <Compile Update="Support.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="SignUp.cs">

@@ -25,5 +25,6 @@ C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7
 C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.News.resources
 C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.SignUp.resources
 C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.Transfer.resources
-C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.Settings.resources
 C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.Recent_Transactions.resources
+C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C#BankingSystem.sourcelink.json
+C:\Users\dagia\Desktop\C#BankingSystem\C#BankingSystem\obj\Debug\net8.0-windows7.0\C_BankingSystem.Support.resources

@@ -80,17 +80,16 @@ namespace C_BankingSystem
         private void Logoutbtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login login = new Login();
+            Login login = new();
             login.ShowDialog();
-            login = null;
             this.Close();
         }
 
         private void Supportbtn_Click(object sender, EventArgs e)
         {
-            settings1.Visible = true;
-            settings1.Show();
-            settings1.BringToFront();
+            support1.Visible = true;
+            support1.Show();
+            support1.BringToFront();
         }
 
         private void Recentsbtn_Click(object sender, EventArgs e)
@@ -98,6 +97,13 @@ namespace C_BankingSystem
             recent_Transactions1.Visible = true;
             recent_Transactions1.Show();
             recent_Transactions1.BringToFront();
+        }
+
+        private void Transferbtn_Click(object sender, EventArgs e)
+        {
+            transfer1.Visible = true;
+            transfer1.Show();
+            transfer1.BringToFront();
         }
     }
 }

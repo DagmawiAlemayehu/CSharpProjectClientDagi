@@ -202,7 +202,7 @@
             Usernametxt.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             Usernametxt.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Usernametxt.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            Usernametxt.FillColor = Color.Silver;
+            Usernametxt.FillColor = Color.Gainsboro;
             Usernametxt.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Usernametxt.Font = new Font("Segoe UI", 9F);
             Usernametxt.ForeColor = Color.Black;
@@ -227,7 +227,7 @@
             PasswordTxt.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             PasswordTxt.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             PasswordTxt.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            PasswordTxt.FillColor = Color.Silver;
+            PasswordTxt.FillColor = Color.Gainsboro;
             PasswordTxt.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             PasswordTxt.Font = new Font("Segoe UI", 9F);
             PasswordTxt.ForeColor = Color.Black;

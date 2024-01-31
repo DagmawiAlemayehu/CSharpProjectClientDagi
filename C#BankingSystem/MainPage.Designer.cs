@@ -71,11 +71,12 @@
             Recentsbtn = new Guna.UI2.WinForms.Guna2Button();
             guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            CBEIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             dashboard11 = new Dashboard1();
-            settings1 = new Settings();
+            support1 = new Support();
             news1 = new News();
             recent_Transactions1 = new Recent_Transactions();
+            transfer1 = new Transfer();
+            CBEIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ControlGPanel2.SuspendLayout();
             sidebarGradientPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AccountPictureBox).BeginInit();
@@ -206,11 +207,11 @@
             AccountPictureBox.FillColor = Color.Transparent;
             AccountPictureBox.Image = (Image)resources.GetObject("AccountPictureBox.Image");
             AccountPictureBox.ImageRotate = 0F;
-            AccountPictureBox.Location = new Point(74, 8);
+            AccountPictureBox.Location = new Point(101, 8);
             AccountPictureBox.Name = "AccountPictureBox";
             AccountPictureBox.ShadowDecoration.CustomizableEdges = customizableEdges9;
             AccountPictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            AccountPictureBox.Size = new Size(191, 165);
+            AccountPictureBox.Size = new Size(165, 158);
             AccountPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
             AccountPictureBox.TabIndex = 2;
             AccountPictureBox.TabStop = false;
@@ -282,6 +283,7 @@
             Transferbtn.TabIndex = 2;
             Transferbtn.Text = "Transfer";
             Transferbtn.TextOffset = new Point(-8, 0);
+            Transferbtn.Click += Transferbtn_Click;
             // 
             // Newsbtn
             // 
@@ -347,9 +349,10 @@
             guna2GradientPanel2.BackColor = Color.Transparent;
             guna2GradientPanel2.Controls.Add(CBEIcon);
             guna2GradientPanel2.Controls.Add(dashboard11);
-            guna2GradientPanel2.Controls.Add(settings1);
+            guna2GradientPanel2.Controls.Add(support1);
             guna2GradientPanel2.Controls.Add(news1);
             guna2GradientPanel2.Controls.Add(recent_Transactions1);
+            guna2GradientPanel2.Controls.Add(transfer1);
             guna2GradientPanel2.CustomizableEdges = customizableEdges23;
             guna2GradientPanel2.Location = new Point(374, 3);
             guna2GradientPanel2.Name = "guna2GradientPanel2";
@@ -357,13 +360,50 @@
             guna2GradientPanel2.Size = new Size(1556, 1039);
             guna2GradientPanel2.TabIndex = 6;
             // 
+            // dashboard11
+            // 
+            dashboard11.BackColor = Color.Transparent;
+            dashboard11.Location = new Point(0, 0);
+            dashboard11.Name = "dashboard11";
+            dashboard11.Size = new Size(1559, 1040);
+            dashboard11.TabIndex = 4;
+            // 
+            // support1
+            // 
+            support1.Location = new Point(0, 0);
+            support1.Name = "support1";
+            support1.Size = new Size(1559, 1040);
+            support1.TabIndex = 5;
+            // 
+            // news1
+            // 
+            news1.BackColor = Color.Transparent;
+            news1.Location = new Point(0, 0);
+            news1.Name = "news1";
+            news1.Size = new Size(1559, 1040);
+            news1.TabIndex = 6;
+            // 
+            // recent_Transactions1
+            // 
+            recent_Transactions1.Location = new Point(0, 0);
+            recent_Transactions1.Name = "recent_Transactions1";
+            recent_Transactions1.Size = new Size(1559, 1040);
+            recent_Transactions1.TabIndex = 7;
+            // 
+            // transfer1
+            // 
+            transfer1.Location = new Point(0, 0);
+            transfer1.Name = "transfer1";
+            transfer1.Size = new Size(1559, 1040);
+            transfer1.TabIndex = 8;
+            // 
             // CBEIcon
             // 
             CBEIcon.BackColor = Color.Transparent;
             CBEIcon.FillColor = Color.Transparent;
             CBEIcon.Image = (Image)resources.GetObject("CBEIcon.Image");
             CBEIcon.ImageRotate = 0F;
-            CBEIcon.Location = new Point(-5, -3);
+            CBEIcon.Location = new Point(0, 0);
             CBEIcon.Name = "CBEIcon";
             CBEIcon.ShadowDecoration.CustomizableEdges = customizableEdges22;
             CBEIcon.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -371,36 +411,6 @@
             CBEIcon.SizeMode = PictureBoxSizeMode.Zoom;
             CBEIcon.TabIndex = 3;
             CBEIcon.TabStop = false;
-            // 
-            // dashboard11
-            // 
-            dashboard11.BackColor = Color.Transparent;
-            dashboard11.Location = new Point(-5, 3);
-            dashboard11.Name = "dashboard11";
-            dashboard11.Size = new Size(1559, 1040);
-            dashboard11.TabIndex = 4;
-            // 
-            // settings1
-            // 
-            settings1.Location = new Point(-6, 5);
-            settings1.Name = "settings1";
-            settings1.Size = new Size(1559, 980);
-            settings1.TabIndex = 5;
-            // 
-            // news1
-            // 
-            news1.BackColor = Color.Transparent;
-            news1.Location = new Point(0, 0);
-            news1.Name = "news1";
-            news1.Size = new Size(1553, 1040);
-            news1.TabIndex = 6;
-            // 
-            // recent_Transactions1
-            // 
-            recent_Transactions1.Location = new Point(-2, -3);
-            recent_Transactions1.Name = "recent_Transactions1";
-            recent_Transactions1.Size = new Size(1559, 1040);
-            recent_Transactions1.TabIndex = 7;
             // 
             // MainPage
             // 
@@ -442,8 +452,9 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox CBEIcon;
         private Dashboard1 dashboard11;
-        private Settings settings1;
+        private Support support1;
         private News news1;
         private Recent_Transactions recent_Transactions1;
+        private Transfer transfer1;
     }
 }

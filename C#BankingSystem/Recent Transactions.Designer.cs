@@ -98,7 +98,7 @@
             Backbtn.ImageAlign = HorizontalAlignment.Left;
             Backbtn.ImageOffset = new Point(0, 30);
             Backbtn.ImageSize = new Size(40, 40);
-            Backbtn.Location = new Point(1318, 27);
+            Backbtn.Location = new Point(1329, 27);
             Backbtn.Name = "Backbtn";
             Backbtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
             Backbtn.Size = new Size(162, 49);
@@ -132,7 +132,7 @@
             guna2GradientPanel3.CustomizableEdges = customizableEdges3;
             guna2GradientPanel3.FillColor = Color.White;
             guna2GradientPanel3.FillColor2 = Color.White;
-            guna2GradientPanel3.Location = new Point(279, 243);
+            guna2GradientPanel3.Location = new Point(375, 244);
             guna2GradientPanel3.Name = "guna2GradientPanel3";
             guna2GradientPanel3.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2GradientPanel3.Size = new Size(734, 86);
@@ -186,7 +186,7 @@
             // 
             guna2Separator3.BackColor = Color.Transparent;
             guna2Separator3.FillThickness = 3;
-            guna2Separator3.Location = new Point(279, 195);
+            guna2Separator3.Location = new Point(375, 126);
             guna2Separator3.Name = "guna2Separator3";
             guna2Separator3.Size = new Size(1018, 42);
             guna2Separator3.TabIndex = 1;
@@ -202,7 +202,7 @@
             guna2GradientPanel2.CustomizableEdges = customizableEdges5;
             guna2GradientPanel2.FillColor = Color.White;
             guna2GradientPanel2.FillColor2 = Color.White;
-            guna2GradientPanel2.Location = new Point(279, 372);
+            guna2GradientPanel2.Location = new Point(375, 386);
             guna2GradientPanel2.Name = "guna2GradientPanel2";
             guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2GradientPanel2.Size = new Size(734, 86);
@@ -257,7 +257,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Century Gothic", 14F, FontStyle.Bold);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(279, 143);
+            label5.Location = new Point(375, 74);
             label5.Name = "label5";
             label5.Size = new Size(425, 49);
             label5.TabIndex = 0;
@@ -267,7 +267,7 @@
             // 
             guna2Separator1.BackColor = Color.Transparent;
             guna2Separator1.FillThickness = 3;
-            guna2Separator1.Location = new Point(3, 82);
+            guna2Separator1.Location = new Point(0, 82);
             guna2Separator1.Name = "guna2Separator1";
             guna2Separator1.Size = new Size(1565, 20);
             guna2Separator1.TabIndex = 4;

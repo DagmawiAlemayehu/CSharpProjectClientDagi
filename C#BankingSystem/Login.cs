@@ -40,9 +40,8 @@ namespace C_BankingSystem
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainPage mainPage = new MainPage();
+            MainPage mainPage = new ();
             mainPage.ShowDialog();
-            mainPage = null;
             this.Close();
         }
 
